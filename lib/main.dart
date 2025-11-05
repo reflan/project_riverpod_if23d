@@ -5,9 +5,9 @@ import 'package:project_riverpod/screens/home/home_screen.dart';
 import 'firebase_options.dart';
 
 void main() async {
-  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  //WidgetsFlutterBinding.ensureInitialized();
+  //await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
